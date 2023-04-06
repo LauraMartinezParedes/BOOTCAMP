@@ -3,16 +3,20 @@
 
 //const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
 
-const mixedElements = 6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub';
+const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
 console.log(mixedElements.length)
 
 function averageWord(array) {
     let acc = 0
-    array.forEach(numero=>{
-        acc+=numero
-
+    array.forEach(elemento=>{
+        if(typeof elemento === "number"){
+          acc+=elemento
+        }
+        else{acc+=elemento.length
+          
+        }        
     })
-  let resultado = acc+mixedElements.length
+    return acc;
 }
 
-console.log(averageWord(numero))
+console.log(averageWord(mixedElements))
