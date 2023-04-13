@@ -25,3 +25,4 @@ return avenger
 // comparar la palabra recorrida con la guardada (más larga) if else o ternario
 // si la palabra recorrida es la mas larga se sustituye con la que haya en la caja
 // esto lo hacemos asignando con =
+

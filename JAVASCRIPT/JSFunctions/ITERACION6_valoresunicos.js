@@ -25,5 +25,6 @@ const duplicates = [
   }
 
   console.log(removeDuplicates(duplicates));
+  
 
   //forEach y con if
