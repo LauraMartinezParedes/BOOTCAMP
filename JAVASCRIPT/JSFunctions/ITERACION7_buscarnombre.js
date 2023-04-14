@@ -20,10 +20,9 @@ const nameFinder = [
      word == name && console.log(true, index);
       
     })
-
   } 
     
-finderName(nameFinder, "");
+finderName(nameFinder, "Peggy");
 
 //Me falta que me devuelva el false si no está, pero solo una vez. 
 

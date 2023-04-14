@@ -12,10 +12,15 @@ const toys = [
 
 ];
 
-for(let value of popularToys) {
-  console.log(toys);  
+	for(let toy of toys) {
 
-}
+//ternario: 
+
+		if(toy.sellCount > 15 )  {
+			popularToys.push(toy);
+ }}
 
 
+
+console.log(popularToys)
 

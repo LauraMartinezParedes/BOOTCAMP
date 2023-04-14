@@ -10,3 +10,8 @@ const alumns = [
 		
 		
 ]
+
+const alumnoAprueba = (alumns) 
+	alumns.forEach((alumno) => 
+		
+)
