@@ -10,13 +10,15 @@ const placesToTravel = [
     {id: 44, name: 'Filipinas'}, 
     {id: 59, name: 'Madagascar'}]
 
-const iteracion5 = (array) =>{
-    array.forEach((element, index) => {
+const iteracion5 = (array) =>{ // creamos el array
+    array.forEach((element, index) => { // recorremos el arrar
         if(element.id == 11 || element.id == 40){
+        // si el elemento id es igual a 11 o a 40
             array.splice(index,1);
+        //lo quitas
         }
     });
     console.log(array);
 }
 
-iteracion5(placesToTravel);
+iteracion5(placesToTravel); //llamamos a la funcion

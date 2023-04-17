@@ -10,15 +10,16 @@ const movies = [
     {title: 'El gato con guantes', duration: 111, categories: ['comedia', 'aventura', 'animación']},
 ]
 
-const categorias = [];
+const categorias = []; // hacemos una nueva variable de array
 
-for(let movie of movies){
-    // console.log(movie);
-  for(let array of movie.categories){
-    if(!categorias.includes(array) ) {
+for(let movie of movies){ // hacemos el for of de movie y sale por consola
+    console.log(movie);
+  for(let array of movie.categories){ //ahora le decimos que de este for of
+    if(!categorias.includes(array) ) { // si la categoria NO esta incluida en el array
 
-        categorias.push(array);}
+        categorias.push(array);} // añadela en la nueva const 
         
 }}
- console.log(categorias)
 
+ console.log(categorias)
+// consola: [ 'comedia', 'aventura', 'acción', 'thriller', 'animación' ]

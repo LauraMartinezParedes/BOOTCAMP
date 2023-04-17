@@ -12,15 +12,17 @@ const toys = [
 
 ];
 
-	for(let toy of toys) {
-
-//ternario: 
+	for(let toy of toys) { // hacemos el for of
 
 		if(toy.sellCount > 15 )  {
+		// si las ventas de toy en toys son mas de 15
+
 			popularToys.push(toy);
+		// METELA en mi nuevo array
  }}
 
 
 
 console.log(popularToys)
-
+// consola:  { id: 11, name: 'Action Woman', sellCount: 24 },
+//   { id: 40, name: 'El gato felix', sellCount: 35 }

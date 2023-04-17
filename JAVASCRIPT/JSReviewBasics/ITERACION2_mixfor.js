@@ -33,7 +33,7 @@ const users = [
 ]
 let acc = 0;
 let longitud = 0;
-let promedioVolume = (acc, volume)
+let promedioVolume = (acc, users.volume)
 
     
 for(let user of users){

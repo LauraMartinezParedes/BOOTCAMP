@@ -7,13 +7,16 @@ const products = ['Camiseta de Pokemon', 'Pantalón coquinero', 'Gorra de gansta
 products.forEach((product)=>{ // recoremos el array
 // console.log(product);
  let x = product.split(" ")   // creamos una variable donde añadir el string que buscamos
-   console.log(x);
+ // separamos todos los productos
+ console.log(x);
+
 if(x.includes("Camiseta")){ // si el string lo incluye
+// buscamos camiseta entre todos los cortes
     let y = x.join(" ") // juntamos todo el string, no solo camiseta
     console.log(y);
 
 }
-console.log(product);
+
 })
 
 

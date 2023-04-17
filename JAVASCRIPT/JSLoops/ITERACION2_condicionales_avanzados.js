@@ -11,7 +11,9 @@ const alumns = [
 		
 ]
 
-const alumnoAprueba = (alumns) 
-	alumns.forEach((alumno) => 
+const alumnoAprueba = (alumns)
+	alumns.forEach((alumno) =>{
+		
+	}
 		
 )

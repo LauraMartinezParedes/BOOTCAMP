@@ -16,7 +16,7 @@ if(hasRing == "false"){     // condición
     console.log("Legolas no tiene el Anillo Unico")};
 
 let isArcher = "true"; 
-if(isArcher == "true"){
+if(isArcher == "true"){ // condición
 console.log("Legolas es un arquero")
 
 }else{("Legolas es un guerrero valiente")
