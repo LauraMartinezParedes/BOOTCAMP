@@ -14,17 +14,20 @@ const duplicates = [
     'pasta',
     'soda'
   ];
-  const removeDuplicates = (list) => {
-    let comida = [];
-    list.forEach((food) => {
-      if(!comida.includes(food)  ){
-        comida.push(food);}
+  const removeDuplicates = (list) => { //creamos nuestra funcion
+    let comida = [];    // hacemos nuestra variable array, DENTRO DE LA FUNCION!!!!
+    list.forEach((food) => { //le decimos que recorra list buscando...
+      if(!comida.includes(food)  ){ //si lo que encuentra en food NO está en comida, 
+        comida.push(food);} ///MÉTELO!!
       });
-        return comida
+        return comida  ///llamamos a nuestra variable
       
   }
 
   console.log(removeDuplicates(duplicates));
-  
-
-  //forEach y con if
+// consola:   
+// 'sushi',   'pizza',
+  // 'burger',  'potatoe',
+  // 'pasta',   'ice-cream',
+  // 'chicken', 'onion rings',
+  // 'soda'

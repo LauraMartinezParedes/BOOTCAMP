@@ -4,42 +4,26 @@
 // contra un false. Puedes usar este array para probar tu función:
 const nameFinder = [
     'Peter',
-    'Steve',
+     'Steve',
     'Tony',
-    'Natasha',
+     'Natasha',
     'Clint',
     'Logan',
-    'Xabier',
+     'Xabier',
     'Bruce',
-    'Peggy',
+     'Peggy',
     'Jessica',
-    'Marc'
-  ];
-  function finderName(array, word) {
-    array.forEach((name, index)=>{
-     word == name && console.log(true, index);
-      
-    })
-  } 
-    
+     'Marc'
+   ];
+  
+   function finderName(array, word) { // creamos una función con dos parámetros array y word
+     array.forEach((name, index)=>{ // recorremos el array
+      word == name && console.log(true, index) // si el segundo param es igual a name,
+                                              // nos da true y la ubicación en la lista
+     })
+   } 
 finderName(nameFinder, "Peggy");
 
 //Me falta que me devuelva el false si no está, pero solo una vez. 
 
 
-  //INCLUIDO Y SE DEVUELVA CON TRUE E INDEX CON POSICION 
-  // CUANDO NO LO INCLUYA QUE MANDE FALSE
-
-  //const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
-
-
-/*function averageWord (array) {
-    let acc = 0;
-    array.forEach(element =>{
-        typeof element == "number" ? acc+= element : acc+=element.length
-        
-    })
-    return acc;
-
-}
-console.log(averageWord(mixedElements));*/

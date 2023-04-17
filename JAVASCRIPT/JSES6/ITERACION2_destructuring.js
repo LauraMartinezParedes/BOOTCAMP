@@ -38,8 +38,8 @@ const car = {modelo: 'Mazda 6', itv: [2015, 2011, 2020] }
 const{modelo, itv}=car;
 console.log(modelo, itv);
 // consola: Mazda 6 [ 2015, 2011, 2020 ]
-const{año1, año2, año3}= car.itv;
-console.log(año1);
+//const{año1, año2, año3}= car.itv;
+// console.log(año1);
 
 
 const añosItv ={

@@ -16,21 +16,22 @@ const counterWords = [
   ];
   const repeatCounter = (array) => {
     // array con elementos no repetidos
-    let noRepeat = [];
-    let finalCount= [];
-    for (let word of array){
-      if (!noRepeat.includes(word)){
-        noRepeat.push(word);
+    let noRepeat = [];  // variable nueva donde guardar no repetidos
+    let finalCount= []; // variable final
+    for (let word of array){ // creamos el for of
+      if (!noRepeat.includes(word)){ // si no está incluida
+        noRepeat.push(word);        // la metemos
 
       }
     }
     console.log(noRepeat);
 
-    array.forEach((word)=> {
-      let acc = 0; 
-      for(let i = 0; i < array.length; i++){
-        if (word == array[i]) acc++
-        
+//////FOR y IF//////////
+    array.forEach((word)=> { // recorremos el array
+      let acc = 0;          // creamos acc donde se añadirá
+      for(let i = 0; i < array.length; i++){ //hacemos el for
+        if (word == array[i]) acc++      //le decimos que si la palabra está en el array
+                                   //nos diga el indice de la misma y la sume a nuestro acc
       }
       console.log(word, acc);
     })

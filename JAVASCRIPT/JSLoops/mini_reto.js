@@ -8,11 +8,11 @@
 ///// el mensaje "Legolas es un arquero experto"
 // Utiliza  **`else`** para imprimir en la consola el mensaje "Legolas es un guerrero valiente"
 
-let character = "Legolas";
-let race = " Elfo";
+let character = "Legolas"; // variable con asiganción
+let race = " Elfo";        // variable con asignación
 
-let hasRing = "false"; 
-if(hasRing == "false"){
+let hasRing = "false";      // variable con asignación
+if(hasRing == "false"){     // condición 
     console.log("Legolas no tiene el Anillo Unico")};
 
 let isArcher = "true"; 

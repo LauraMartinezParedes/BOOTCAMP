@@ -15,6 +15,6 @@ function sumAll(array){
 
 console.log(sumAll(numbers))
 
-
+// creamos un acumulador como variable donde añadir el sumatorio
 
     

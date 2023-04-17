@@ -24,9 +24,11 @@ const toys = {name: 'Bus laiyiar', date: '20-30-1995', color: 'multicolor'};
 const toyUpdate = {lights: 'rgb', power: ['Volar like a dragon', 'MoonWalk']}
 const newObject = {...toys,...toyUpdate};
 console.log(newObject);
+// consola:name: 'Bus laiyiar', date: '20-30-1995', color: 'multicolor', lights: 'rgb', power: [ 'Volar like a dragon', 'MoonWalk' ]
 
 // 3.5 Dado el siguiente array. Crear una copia de él eliminando la posición 2 
 // pero sin editar el array inicial. De nuevo, usando spread operatos.
 const colors = ['rojo', 'azul', 'amarillo', 'verde', 'naranja'];
-const newColor = [...colors];
-console.log(newColor);
+
+const newColors = [...colors, ]
+console.log(newColors);
