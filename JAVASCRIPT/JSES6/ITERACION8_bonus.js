@@ -12,10 +12,17 @@ const videogames = [
     {name: 'Legend of Zelda: Breath of the wild', genders: ['RPG', 'La cosa más puto bonita que he visto nunca'], score: 10},
 ]
 
-let genders = [];
-genders = videogames.filter((videogames)=>videogames.genders.includes("RPG"))
-const media = genders.score.reduce((acc, genders)=> acc + genders.score, 0)
 
-console.log(media)
+let genders = []
+//genders = videogames.filter((genders)=> genders.includes("RPG"));
 
-console.log(genders)
+
+//console.log(genders)
+
+genders = videogames.filter((videogames)=>videogames.genders.includes("RPG"));{
+    console.log(genders.push(genders));
+}
+// const media = genders.score.reduce((acc, genders)=> acc + genders.score, 0)
+
+//  console.log(media)
+//  console.log(genders)

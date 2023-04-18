@@ -15,4 +15,4 @@ function findArrayIndex(array, texto, index) { // la funcion
     findArrayIndex(Girasoles);
 }
 
-console.log(findArrayIndex)
+console.log()
