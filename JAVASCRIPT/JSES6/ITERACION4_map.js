@@ -22,10 +22,9 @@ const user = [
 
 const nombres = user.map((user)=>{
     if(user.name.includes("A")){
-        console.log(user.name = "Anacleto")
-
-
+       user.name = "Anacleto"
     }
+    return user
 })
 console.log(nombres)
 // consola: Anacleto, Anacleto

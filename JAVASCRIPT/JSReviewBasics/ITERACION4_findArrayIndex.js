@@ -4,15 +4,16 @@ del array sea igual al valor del texto que enviaste como parametro. Haz varios e
 y compruebalos.*/
 
 
-let flores = ["Girasoles", "Petunias", "Claveles", "Narcisos"] // el array
-function findArrayIndex(array, texto, index) { // la funcion
+let flores = ["Girasoles", "Petunias", "Claveles", "Narcisos","Girasoles"] // el array
+function findArrayIndex(array, texto)  // la funcion
     // recorrer el array buscando si es igual al texto
-    array.forEach(texto == array);{
-        console.log(array.indexOf)
-        // dar el index donde se encuentra el texto dentro del array
+    let counterIndex =[]
+    array.forEach((item,index)=>{
+        item === texto && counterIndex.push({
+            word: texto,
+            posicion: index
+        })
+    return counterIndex
+    })
 
-    }
-    findArrayIndex(Girasoles);
-}
-
-console.log()
+findArrayIndex(flores, "Girasoles");

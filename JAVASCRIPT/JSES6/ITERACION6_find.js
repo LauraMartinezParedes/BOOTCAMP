@@ -34,6 +34,6 @@ const alien = aliens.find(aliens => aliens.name == "Cucushumushu");
 //console.log(alien);
 const mutante = mutations.find(mutations => mutations.name == "Porompompero");
 //console.log(mutante);
+const fusion = {...alien, ...mutante, nameAlien: alien.name} 
 
-const fusion = {...alien, ...mutante}
 console.log(fusion);
