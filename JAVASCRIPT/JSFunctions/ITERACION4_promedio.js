@@ -19,8 +19,8 @@ const numbers = [12, 21, 38, 5, 45, 37, 6];
 
 
     //CON REDUCE
-//const number = [12, 21, 38, 5, 45, 37, 6];
-//const total = number.reduce((acumulador,number)=>acumulador+number,0);
-//console.log(total);
+const number = [12, 21, 38, 5, 45, 37, 6];
+const total = number.reduce((acumulador,number)=>acumulador+number,0);
+console.log(total);
 
 

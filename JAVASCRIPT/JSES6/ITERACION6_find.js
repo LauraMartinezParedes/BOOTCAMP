@@ -1,7 +1,7 @@
 // 6.1 Dado el siguiente array, usa .find() para econtrar el número 100.
 const numbers = [32, 21, 63, 95, 100, 67, 43];
 const cien = numbers.find(numbers => numbers == 100);
-//console.log(cien);
+console.log(cien);
 //consola: 100
 // 6.2 Dado el siguiente array, usa .find() para econtrar la pelicula del año 2010.
 const movies = [
@@ -11,7 +11,7 @@ const movies = [
 ];
 
 const movieDiez = movies.find(movies => movies.date == 2010)
-//console.log(movieDiez);
+console.log(movieDiez);
 // consola: { title: 'Origen', stars: 5, date: 2010 }
 
 
@@ -31,9 +31,9 @@ const mutations = [
 ];
 
 const alien = aliens.find(aliens => aliens.name == "Cucushumushu");
-//console.log(alien);
+console.log(alien);
 const mutante = mutations.find(mutations => mutations.name == "Porompompero");
-//console.log(mutante);
+console.log(mutante);
 const fusion = {...alien, ...mutante, nameAlien: alien.name} 
 
 console.log(fusion);

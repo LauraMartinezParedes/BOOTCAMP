@@ -1,31 +1,31 @@
 // //5.1 Dado el siguiente array, utiliza .filter() para generar un nuevo array 
 // // con los valores que sean mayor que 18
-// const age = [22, 14, 24, 55, 65, 21, 12, 13, 90];
-// const someAge = age.filter((age) => age>18);
-// //console.log(someAge);
+const age = [22, 14, 24, 55, 65, 21, 12, 13, 90];
+ const someAge = age.filter((age) => age>18);
+console.log(someAge);
 // //consola: [ 22, 24, 55, 65, 21, 90 ]
 
 // //5.2 Dado el siguiente array, utiliza .filter() para generar un nuevo array 
 // // con los valores que sean par.
-// // const ages = [22, 14, 24, 55, 65, 21, 12, 13, 90];
-// // const edadPar = ages.filter((ages) =>{
-// //     if(ages){
-// //         console.log(ages.push(edadPar))
-// //     };console.log(edadPar);
-// // }) 
+ const ages = [22, 14, 24, 55, 65, 21, 12, 13, 90];
+ const edadPar = ages.filter((ages) =>{
+     if(ages){
+         console.log(ages.push(edadPar))
+     };console.log(edadPar);
+ }) 
 
 
 // // 5.3 Dado el siguiente array, utiliza .filter() para generar un nuevo array 
 // //con los streamers que tengan el gameMorePlayed = 'League of Legends'.
-// const streamer = [
-// 	{name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft'},
-// 	{name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends'}, 
-// 	{name: 'Reven', age: 43, gameMorePlayed: 'League of Legends'},
-// 	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
-// ];
+ const streamer = [
+ 	{name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft'},
+ 	{name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends'}, 
+ 	{name: 'Reven', age: 43, gameMorePlayed: 'League of Legends'},
+ 	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
+ ];
 
-// const youtuber = streamer.filter((streamer)=>streamer.gameMorePlayed.includes("League of Legends"));
-// console.log(youtuber);
+ const youtuber = streamer.filter((streamer)=>streamer.gameMorePlayed.includes("League of Legends"));
+ console.log(youtuber);
 //consola:   { name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends' },{ name: 'Reven', age: 43, gameMorePlayed: 'League of Legends' }
 
 // 5.4 Dado el siguiente array, utiliza .filter() para generar un nuevo array 
@@ -38,8 +38,8 @@ const streamers = [
   	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
   ];
 
-// const streamerU = streamers.filter((streamers)=>streamers.name.includes("u"));
-// console.log(streamerU);
+ const streamerU = streamers.filter((streamers)=>streamers.name.includes("u"));
+ console.log(streamerU);
 // consola:   { name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft' }, { name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us' }
 
 //5.5 utiliza .filter() para generar un nuevo array con los streamers que incluyan 
@@ -64,5 +64,5 @@ const onlyMayus = streamers.filter((streamers)=>{
 )
 console.log(onlyMayus);
 
-//console.log(masStreamer);
+console.log(masStreamer);
 //consola:  { name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends' },{ name: 'Reven', age: 43, gameMorePlayed: 'League of Legends' }

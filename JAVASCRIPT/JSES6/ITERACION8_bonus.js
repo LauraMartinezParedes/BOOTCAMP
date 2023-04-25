@@ -14,15 +14,15 @@ const videogames = [
 
 
 let genders = []
-//genders = videogames.filter((genders)=> genders.includes("RPG"));
+genders = videogames.filter((genders)=> genders.includes("RPG"));
 
 
-//console.log(genders)
+console.log(genders)
 
 genders = videogames.filter((videogames)=>videogames.genders.includes("RPG"));{
     console.log(genders.push(genders));
 }
-// const media = genders.score.reduce((acc, genders)=> acc + genders.score, 0)
+ const media = genders.score.reduce((acc, genders)=> acc + genders.score, 0)
 
-//  console.log(media)
-//  console.log(genders)
+  console.log(media)
+  console.log(genders)
